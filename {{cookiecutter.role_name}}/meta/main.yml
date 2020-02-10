@@ -1,0 +1,24 @@
+---
+galaxy_info:
+  author: {{ cookiecutter.author }}
+  description: {{ cookiecutter.description }}
+
+  license: {{ cookiecutter.license }}
+
+  min_ansible_version: {{ cookiecutter.min_ansible_version }}
+
+  # platforms:
+  # - name: Fedora
+  #   versions:
+  #   - all
+  #   - 25
+  # - name: SomePlatform
+  #   versions:
+  #   - all
+  #   - 1.0
+  #   - 7
+  #   - 99.99
+
+  galaxy_tags: []
+
+dependencies: []

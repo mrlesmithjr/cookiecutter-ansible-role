@@ -1,5 +1,5 @@
 ---
-- name: Converge
+- name: Example Playbook
   hosts: all
   roles:
     - role: {{ cookiecutter.role_name }}

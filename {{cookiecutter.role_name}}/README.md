@@ -12,11 +12,7 @@
 
 ## Example Playbook
 
-```yaml
-- hosts: servers
-  roles:
-    - { role: {{ cookiecutter.role_name }}, x: 42 }
-```
+[playbook.yml](playbook.yml)
 
 ## License
 

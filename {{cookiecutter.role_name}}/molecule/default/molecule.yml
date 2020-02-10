@@ -6,11 +6,11 @@ driver:
 lint:
   name: yamllint
 platforms:
-  - name: centos
+  - name: centos7
     image: centos:7
-  - name: debian
+  - name: debian9
     image: debian:9
-  - name: ubuntu
+  - name: ubuntu1804
     image: ubuntu:18.04
 provisioner:
   name: ansible

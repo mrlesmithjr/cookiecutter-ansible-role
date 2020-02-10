@@ -27,4 +27,10 @@
 {{ cookiecutter.author }}
 {% if cookiecutter.email != "" %}
 [{{ cookiecutter.email }}](mailto:{{ cookiecutter.email }})
-{% endif %}
+{%- endif -%}
+{% if cookiecutter.website != "" %}
+[{{ cookiecutter.website }}]({{ cookiecutter.website }})
+{%- endif -%}
+{% if cookiecutter.twitter != "" %}
+[@{{ cookiecutter.twitter }}](https://twitter.com/{{ cookiecutter.twitter }})
+{%- endif -%}

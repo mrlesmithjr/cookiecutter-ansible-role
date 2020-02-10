@@ -1,8 +1,11 @@
 {
-  "role_name": "role_name",
+  "role_name": "Enter Ansible role name",
   "description": "",
   "author": "Your Name",
   "email": "",
-  "license": "MIT",
-  "min_ansible_version": "2.8"
+  "website": "",
+  "twitter": "",
+  "license": ["MIT", "BSD-3", "Apache Software License 2.0"],
+  "min_ansible_version": "2.8",
+  "year": "2020"
 }

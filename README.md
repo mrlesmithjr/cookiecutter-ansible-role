@@ -43,6 +43,13 @@ Once the above is completed our new nginx directory will look similar to:
 
 ```bash
 nginx
+├── .github
+│   └── workflows
+│       └── default.yml
+├── .gitignore
+├── .gitlab-ci.yml
+├── .travis.yml
+├── .yamllint
 ├── CONTRIBUTORS.md
 ├── LICENSE.md
 ├── README.md

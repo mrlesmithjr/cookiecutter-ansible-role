@@ -22,7 +22,12 @@ provisioner:
   name: ansible
   lint:
     name: ansible-lint
+  playbooks:
+    converge: ../shared/playbook.yml
 verifier:
   name: testinfra
+  directory: ../shared/tests
   lint:
     name: flake8
+  additional_files_or_dirs:
+    - ../shared/*

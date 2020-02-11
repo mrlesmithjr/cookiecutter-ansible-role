@@ -2,6 +2,9 @@
 galaxy_info:
   author: {{ cookiecutter.author }}
   description: {{ cookiecutter.description }}
+{% if cookiecutter.company != "" %}
+  company: {{ cookiecutter.company }}
+{%- endif -%}
 
   license: {{ cookiecutter.license }}
 

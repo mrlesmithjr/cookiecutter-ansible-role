@@ -2,12 +2,10 @@
 galaxy_info:
   author: {{ cookiecutter.author }}
   description: {{ cookiecutter.description }}
-{% if cookiecutter.company != "" %}
+{%- if cookiecutter.company != "" %}
   company: {{ cookiecutter.company }}
-{%- endif -%}
-
+{% endif %}
   license: {{ cookiecutter.license }}
-
   min_ansible_version: {{ cookiecutter.min_ansible_version }}
 
   # platforms:

@@ -24,6 +24,7 @@ For any required Ansible roles, review:
 ## Author Information
 
 {{ cookiecutter.author }}
-[{{ cookiecutter.email }}](mailto:{{ cookiecutter.email }})
-[{{ cookiecutter.website }}]({{ cookiecutter.website }})
-[@{{ cookiecutter.twitter }}](https://twitter.com/{{ cookiecutter.twitter }})
+
+- [@{{ cookiecutter.twitter }}](https://twitter.com/{{ cookiecutter.twitter }})
+- [{{ cookiecutter.email }}](mailto:{{ cookiecutter.email }})
+- [{{ cookiecutter.website }}]({{ cookiecutter.website }})

@@ -8,6 +8,13 @@ lint:
 platforms:
   - name: centos7
     image: centos:7
+    privileged: true
+    command: /sbin/init
+    tmpfs:
+      - /run
+      - /tmp
+    volumes:
+      - /sys/fs/cgroup:/sys/fs/cgroup:ro
   # - name: centos8
   #   image: centos:8
   - name: debian9

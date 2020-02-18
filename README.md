@@ -23,38 +23,40 @@ In this example we will create an Ansible role for NGINX.
 ```bash
 cookiecutter https://github.com/mrlesmithjr/cookiecutter-ansible-role
 ...
-role_name [Enter Ansible role name]: nginx
-description []: An Ansible role to install NGINX
+role_name [Enter Ansible role name]: test-role
+description [Enter description of Ansible role]: A test role
 author [Your Name]: Larry Smith Jr.
-company []:
-email []: mrlesmithjr@gmail.com
-website []: https://everythingshouldbevirtual.com
-twitter []: mrlesmithjr
+company [Enter company name]:
+email [me@example.com]: mrlesmithjr@gmail.com
+website [http://example.com]: http://everythingshouldbevirtual.com
+twitter [example]: mrlesmithjr
 Select license:
 1 - MIT
 2 - BSD-3
 3 - Apache Software License 2.0
-Choose from 1, 2, 3 [1]: 1
+Choose from 1, 2, 3 [1]:
 min_ansible_version [2.8]:
 year [2020]:
+github_username [Enter your GitHub username]: mrlesmithjr
+travis_username [Enter your Travis CI username]: mrlesmithjr
+Select default_ci_badges:
+1 - Y
+2 - N
+Choose from 1, 2 [1]:
 ```
 
 Once the above is completed our new nginx directory will look similar to:
 
 ```bash
-nginx
-├── .github
-│   └── workflows
-│       └── default.yml
-├── .gitignore
-├── .gitlab-ci.yml
-├── .travis.yml
-├── .yamllint
+test-role
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
 ├── CONTRIBUTORS.md
 ├── LICENSE.md
 ├── README.md
 ├── defaults
 │   └── main.yml
+├── files
 ├── handlers
 │   └── main.yml
 ├── meta
@@ -67,17 +69,23 @@ nginx
 │   ├── shared
 │   │   ├── playbook.yml
 │   │   └── tests
+│   │       ├── __pycache__
+│   │       │   └── test_default.cpython-37.pyc
 │   │       └── test_default.py
 │   └── vagrant
 │       ├── INSTALL.rst
 │       ├── molecule.yml
-│       └── prepare.yml
+│       ├── prepare.yml
+│       └── tests
+│           └── __pycache__
+│               └── test_default.cpython-37.pyc
 ├── playbook.yml
 ├── requirements-dev.txt
 ├── requirements.txt
 ├── requirements.yml
 ├── tasks
 │   └── main.yml
+├── templates
 └── vars
     └── main.yml
 ```

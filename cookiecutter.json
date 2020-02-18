@@ -2,11 +2,14 @@
   "role_name": "Enter Ansible role name",
   "description": "Enter description of Ansible role",
   "author": "Your Name",
-  "company": "",
-  "email": "",
-  "website": "",
-  "twitter": "",
+  "company": "Enter company name",
+  "email": "me@example.com",
+  "website": "http://example.com",
+  "twitter": "example",
   "license": ["MIT", "BSD-3", "Apache Software License 2.0"],
   "min_ansible_version": "2.8",
-  "year": "2020"
+  "year": "2020",
+  "github_username": "Enter your GitHub username",
+  "travis_username": "Enter your Travis CI username",
+  "default_ci_badges": ["Y", "N"]
 }

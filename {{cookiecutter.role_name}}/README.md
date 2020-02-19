@@ -41,4 +41,4 @@ For any required Ansible roles, review:
 - [{{ cookiecutter.email }}](mailto:{{ cookiecutter.email }})
 - [{{ cookiecutter.website }}]({{ cookiecutter.website }})
 
-> NOTE: Repo has been created/updated using https://github.com/mrlesmithjr/cookiecutter-ansible-role as a template.
+> NOTE: Repo has been created/updated using [https://github.com/mrlesmithjr/cookiecutter-ansible-role](https://github.com/mrlesmithjr/cookiecutter-ansible-role) as a template.

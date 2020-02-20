@@ -23,7 +23,7 @@ jobs:
         run: |
           sudo apt install docker
           python -m pip install --upgrade pip
-          pip3 install ansible molecule docker
+          pip3 install -r requirements.txt
           ansible --version
       - name: Test with molecule
         run: |

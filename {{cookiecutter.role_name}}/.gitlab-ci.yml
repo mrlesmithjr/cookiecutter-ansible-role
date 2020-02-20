@@ -15,6 +15,6 @@ before_script:
 molecule:
   stage: test
   script:
-    - pip3 install ansible molecule docker
+    - pip3 install -r requirements.txt
     - ansible --version
     - molecule test

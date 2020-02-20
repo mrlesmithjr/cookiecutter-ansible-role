@@ -27,7 +27,7 @@
 #   lint:
 #     name: ansible-lint
 #   playbooks:
-#     converge: ../shared/playbook.yml
+#     converge: ../shared/converge.yml
 # verifier:
 #   name: testinfra
 #   lint:

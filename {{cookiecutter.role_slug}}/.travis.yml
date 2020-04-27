@@ -18,5 +18,6 @@ script:
   - molecule test --scenario-name fedora
   - molecule test --scenario-name ubuntu1604
   - molecule test --scenario-name ubuntu1804
+  - molecule test --scenario-name ubuntu2004
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/

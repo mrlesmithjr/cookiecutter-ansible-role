@@ -26,3 +26,4 @@ molecule:
     - molecule test --scenario-name fedora
     - molecule test --scenario-name ubuntu1604
     - molecule test --scenario-name ubuntu1804
+    - molecule test --scenario-name ubuntu2004

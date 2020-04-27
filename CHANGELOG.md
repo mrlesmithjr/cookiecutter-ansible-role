@@ -1,3 +1,10 @@
+Added Ubuntu 20.04 as part of testing
+61cba256d326e83d0cdb586870a457b28e2c73e8
+Rename LICENSE to LICENSE.md6d2248178ea3d0f981ab0cb95061eaf99f9d87b8
+Create CODE_OF_CONDUCT.mdc4de2d4d560c52aec4e5c750e7d77e71b4da3e2d
+Create LICENSE22fa66d58cbc8bd649a11a84325b23345be26d15
+Added CHANGELOG
+0a111bfff9084ed9d4ab2f6d9d54ad78fc90b0ac
 Restructuring to use role_slug, etc.
 a463dc818243ed7dcacccdf22096e374089b7370
 Removed quotes around include roles name

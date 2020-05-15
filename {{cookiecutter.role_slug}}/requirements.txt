@@ -1,7 +1,0 @@
-# Python requirements for executing
-ansible
-ansible-lint
-docker
-flake8
-molecule
-testinfra

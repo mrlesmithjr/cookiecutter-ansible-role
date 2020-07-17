@@ -1,3 +1,8 @@
+Updated to latest changes
+
+- New CI tests
+- Post Gen script for Cookiecutter
+ccf3304afd5941007872decef56053cd0c525ef5
 Switching to pip-tools to manage Python reqs
 e5790015089cb32a5bf4eacb6fb65e6768b33054
 Created symlink for requirements.yml so it is already there if needed

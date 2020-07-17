@@ -1,0 +1,10 @@
+default_context:
+  role_name: ansible-example
+  role_slug: ansible-example
+  description: Example Ansible role
+  author: Example User
+  company: Example
+  email: user@example.org
+  website: http://example.org
+  twitter: example
+

@@ -1,6 +1,6 @@
 {
   "role_name": "Enter Ansible role name",
-  "role_slug": "{{ cookiecutter.role_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "role_slug": "{{ cookiecutter.role_name.lower().replace(' ', '-').replace('_', '-') }}",
   "description": "Enter description of Ansible role",
   "author": "Your Name",
   "company": "Enter company name",

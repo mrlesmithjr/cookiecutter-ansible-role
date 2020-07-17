@@ -5,5 +5,4 @@ docker
 mkdocs
 molecule
 pip-tools
-pynetbox
 yamllint

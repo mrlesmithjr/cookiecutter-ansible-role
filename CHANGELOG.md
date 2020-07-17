@@ -1,3 +1,5 @@
+Switching to pip-tools to manage Python reqs
+e5790015089cb32a5bf4eacb6fb65e6768b33054
 Created symlink for requirements.yml so it is already there if needed
 cb39bb38cc42b270a93576d40374c456a42627eb
 Added Ubuntu 20.04 as part of testing

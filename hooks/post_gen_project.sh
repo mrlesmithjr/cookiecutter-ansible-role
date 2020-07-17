@@ -27,4 +27,6 @@ fi
 
 # Make first Git commit
 git add .
+git config user.email "{{ cookiecutter.email }}"
+git config user.name "{{ cookiecutter.author }}"
 git commit -n -m "First commit using Cookiecutter Template"

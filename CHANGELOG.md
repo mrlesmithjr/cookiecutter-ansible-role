@@ -1,3 +1,5 @@
+Added --no-input
+7fd0b894ff98f19ca33dd8dc1bb59a0276c3f3f2
 Fixing missing template location
 a806f4317a9b7d7150e5125ab58e44d90de73f61
 Added CI test for example role

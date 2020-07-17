@@ -1,3 +1,5 @@
+Added CI test for example role
+dbd5c7bff2ac754eaf2eca90bbf3934a17071c49
 Updated to latest changes
 
 - New CI tests

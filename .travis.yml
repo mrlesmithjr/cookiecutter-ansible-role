@@ -9,4 +9,4 @@ install:
   - pip3 install --upgrade pip pip-tools
   - pip-sync requirements.txt requirements-dev.txt
 script:
-  - cookiecutter --config-file .example-cookiecutterrc --output-dir $HOME .
+  - cookiecutter --config-file .example-cookiecutterrc --no-input --output-dir $HOME .

@@ -1,3 +1,5 @@
+Fixing missing template location
+a806f4317a9b7d7150e5125ab58e44d90de73f61
 Added CI test for example role
 dbd5c7bff2ac754eaf2eca90bbf3934a17071c49
 Updated to latest changes

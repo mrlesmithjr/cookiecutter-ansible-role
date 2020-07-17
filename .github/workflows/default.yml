@@ -17,4 +17,4 @@ jobs:
           pip-sync requirements.txt requirements-dev.txt
       - name: Test with cookiecutter
         run: |
-          cookiecutter --config-file .example-cookiecutterrc --output-dir $HOME .
+          cookiecutter --config-file .example-cookiecutterrc --no-input --output-dir $HOME .

@@ -1,3 +1,13 @@
+Added Flake8 config
+
+- Initial use is to exclude venv/ directory
+f617ee623ae4606c9c0c5e8d3080a5a5ed16767d
+removed Galaxy requirements symlink
+
+The repo root requirements.yml is used if needed
+f09b58e3fd4d6857cbe49da7fd1872b7e9446968
+Fixing git commit fail for user info
+909450fabde8dd0a43252227c151f7b0fe1b37b0
 Added --no-input
 7fd0b894ff98f19ca33dd8dc1bb59a0276c3f3f2
 Fixing missing template location

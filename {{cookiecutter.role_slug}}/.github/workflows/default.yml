@@ -1,4 +1,4 @@
-{%raw%}
+{% raw -%}
 ---
 name: Molecule Test
 on: push
@@ -34,4 +34,4 @@ jobs:
       - name: Test with molecule
         run: |
           molecule test --scenario-name ${{ matrix.molecule_distro }}
-{%endraw%}
+{%- endraw %}

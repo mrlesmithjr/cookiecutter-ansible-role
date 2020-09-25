@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-arrow==0.15.7             # via jinja2-time
+arrow==0.16.0             # via jinja2-time
 binaryornot==0.4.4        # via cookiecutter
 certifi==2020.6.20        # via requests
 chardet==3.0.4            # via binaryornot, requests
@@ -20,4 +20,4 @@ python-slugify==4.0.1     # via cookiecutter
 requests==2.24.0          # via cookiecutter
 six==1.15.0               # via cookiecutter, python-dateutil
 text-unidecode==1.3       # via python-slugify
-urllib3==1.25.9           # via requests
+urllib3==1.25.10          # via requests

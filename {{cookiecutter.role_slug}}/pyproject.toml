@@ -20,7 +20,6 @@ flake8 = "^3.9.0"
 pycodestyle = "^2.7.0"
 pylint = "^2.7.3"
 tox = "^3.23.0"
-pyats = "^21.2"
 robotframework = "^4.0"
 
 [build-system]

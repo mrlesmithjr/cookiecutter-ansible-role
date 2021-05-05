@@ -8,3 +8,6 @@ repository:
 
   # A short description of the repository that will show up on GitHub
   description: {{ cookiecutter.description }}
+
+  # A comma-separated list of topics to set on the repository
+  topics: ansible, ansible-role

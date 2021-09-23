@@ -6,7 +6,7 @@ authors = ["{{cookiecutter.author}} <{{cookiecutter.email}}>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-ansible = "^3.1.0"
+ansible = "^4.2.0"
 ansible-lint = "^5.0.6"
 docker = "^4.4.4"
 mkdocs = "^1.1.2"

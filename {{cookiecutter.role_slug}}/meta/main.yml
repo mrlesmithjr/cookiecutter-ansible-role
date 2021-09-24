@@ -5,6 +5,7 @@ galaxy_info:
   company: {{ cookiecutter.company }}
   license: {{ cookiecutter.license }}
   min_ansible_version: {{ cookiecutter.min_ansible_version }}
+  role_name: {{ cookiecutter.role_slug }}
 
   # platforms:
   # - name: Fedora

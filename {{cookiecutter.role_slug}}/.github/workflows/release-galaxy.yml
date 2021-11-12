@@ -4,16 +4,11 @@ name: Ansible Galaxy
 on:
   push:
     branches:
-    - main
-    - master
-    - 'releases/**'
-    tags:
-    - '*'
-  pull_request:
-    branches:
-    - main
-    - master
-    - 'releases/**'
+      - main
+      - master
+  release:
+    types:
+      - published
 
 jobs:
   galaxy:

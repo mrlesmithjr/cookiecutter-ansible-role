@@ -21,6 +21,16 @@ before_script:
   - ansible --version
   - molecule --version
 
+alpine313:
+  stage: molecule-test
+  script:
+    - molecule test --scenario-name alpine313
+
+alpine314:
+  stage: molecule-test
+  script:
+    - molecule test --scenario-name alpine314
+
 centos7:
   stage: molecule-test
   script:
@@ -31,10 +41,10 @@ centos8:
   script:
     - molecule test --scenario-name centos8
 
-debian8:
-  stage: molecule-test
-  script:
-    - molecule test --scenario-name debian8
+# debian8:
+#   stage: molecule-test
+#   script:
+#     - molecule test --scenario-name debian8
 
 debian9:
   stage: molecule-test
@@ -46,15 +56,35 @@ debian10:
   script:
     - molecule test --scenario-name debian10
 
-fedora:
+debian11:
   stage: molecule-test
   script:
-    - molecule test --scenario-name fedora
+    - molecule test --scenario-name debian11
 
-ubuntu1604:
+# fedora:
+#   stage: molecule-test
+#   script:
+#     - molecule test --scenario-name fedora
+
+fedora34:
   stage: molecule-test
   script:
-    - molecule test --scenario-name ubuntu1604
+    - molecule test --scenario-name fedora34
+
+fedora35:
+  stage: molecule-test
+  script:
+    - molecule test --scenario-name fedora35
+
+rocky8:
+  stage: molecule-test
+  script:
+    - molecule test --scenario-name rocky8
+
+# ubuntu1604:
+#   stage: molecule-test
+#   script:
+#     - molecule test --scenario-name ubuntu1604
 
 ubuntu1804:
   stage: molecule-test

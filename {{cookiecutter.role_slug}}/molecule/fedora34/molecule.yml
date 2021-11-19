@@ -11,10 +11,10 @@ lint: |
   ansible-lint
   flake8
 platforms:
-  - name: ubuntu1604
-    image: mrlesmithjr/ubuntu:16.04
+  - name: fedora34
+    image: mrlesmithjr/fedora:34
     privileged: true
-    command: /lib/systemd/systemd
+    command: /usr/sbin/init
     # tmpfs:
     #   - /run
     #   - /tmp

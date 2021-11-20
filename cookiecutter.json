@@ -1,5 +1,6 @@
 {
   "role_name": "Enter Ansible role name",
+  "role_dir": "{{ cookiecutter.role_name.lower().replace(' ', '-') }}",
   "role_slug": "{{ cookiecutter.role_name.lower().replace(' ', '_').replace('-', '_') }}",
   "description": "Enter description of Ansible role",
   "author": "Your Name",
@@ -7,10 +8,17 @@
   "email": "me@example.com",
   "website": "http://example.com",
   "twitter": "example",
-  "license": ["MIT", "BSD-3", "Apache Software License 2.0"],
+  "license": [
+    "MIT",
+    "BSD-3",
+    "Apache Software License 2.0"
+  ],
   "min_ansible_version": "2.8",
-  "year": "2020",
+  "year": "2021",
   "github_username": "{{ cookiecutter.twitter }}",
   "travis_username": "{{ cookiecutter.twitter }}",
-  "default_ci_badges": ["Y", "N"]
+  "default_ci_badges": [
+    "Y",
+    "N"
+  ]
 }

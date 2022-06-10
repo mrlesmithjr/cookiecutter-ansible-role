@@ -6,7 +6,7 @@ authors = ["Larry Smith Jr. <mrlesmithjr@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-cookiecutter = "^1.7.2"
+cookiecutter = "^2.1.1"
 
 [tool.poetry.dev-dependencies]
 

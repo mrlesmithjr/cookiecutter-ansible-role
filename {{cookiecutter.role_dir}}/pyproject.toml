@@ -16,7 +16,7 @@ pylint = "^2.7.3"
 tox = "^3.23.0"
 black = "^21.9b0"
 ansible-lint = "^5.1.3"
-mkdocs = "^1.1.2"
+mkdocs = "^1.2.3"
 molecule = {extras = ["docker"], version = "^3.3.0"}
 yamllint = "^1.26.0"
 mkdocs-material = "^7.3.0"

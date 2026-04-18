@@ -1,24 +1,39 @@
-[tool.poetry]
+[project]
 name = "{{cookiecutter.role_slug}}"
 version = "0.1.0"
-description = ""
-authors = ["{{cookiecutter.author}} <{{cookiecutter.email}}>"]
+description = "{{cookiecutter.description}}"
+authors = [{ name = "{{cookiecutter.author}}", email = "{{cookiecutter.email}}" }]
+requires-python = ">=3.12"
+dependencies = []
 
-[tool.poetry.dependencies]
-python = ">=3.9,<4.0"
-ansible = "^8.5.0"
-ansible-compat = "3.0.2"
+[project.optional-dependencies]
+dev = [
+  "ansible-core>=2.16",
+  "ansible-lint>=25.0",
+  "molecule>=26.0",
+  "molecule-plugins[docker]>=23.0",
+  "pre-commit>=4.0",
+  "ruff>=0.4",
+]
 
-[tool.poetry.group.dev.dependencies]
-black = "^22.10.0"
-pylint = "^2.15.7"
-flake8 = "^6.0.0"
-cookiecutter = "^2.1.1"
-pre-commit = "^2.20.0"
-molecule = {extras = ["docker"], version = "^5.0.1"}
-molecule-plugins = {extras = ["vagrant"], version = "^23.4.1"}
-ansible-lint = { version = "^6.9.0", markers = "platform_system != 'Windows'" }
+[tool.uv]
+dev-dependencies = [
+  "ansible-core>=2.16",
+  "ansible-lint>=25.0",
+  "molecule>=26.0",
+  "molecule-plugins[docker]>=23.0",
+  "pre-commit>=4.0",
+  "ruff>=0.4",
+]
+
+[tool.ruff]
+line-length = 120
+select = ["E", "F", "I", "W"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"

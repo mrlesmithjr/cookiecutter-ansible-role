@@ -1,9 +1,9 @@
 ---
-# This is an example playbook to execute Ansible tests.
-
 - name: Verify
   hosts: all
   tasks:
-  - name: Example assertion
-    assert:
-      that: true
+    - name: Verify role applied successfully
+      ansible.builtin.assert:
+        that:
+          - true
+        fail_msg: "Add verification tasks here"

@@ -6,22 +6,15 @@ dependency:
     role-file: requirements.yml
 driver:
   name: docker
-lint: |
-  yamllint .
-  ansible-lint
-  flake8
 platforms:
-  - name: alpine313
-    image: mrlesmithjr/alpine:3.13
+  - name: rocky9
+    image: mrlesmithjr/rocky:9
     privileged: true
-    command: /sbin/init
-    # tmpfs:
-    #   - /run
-    #   - /tmp
+    command: /usr/sbin/init
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:rw
     cgroupns_mode: host
-    # groups: []
+    pre_build_image: true
 provisioner:
   name: ansible
   playbooks:

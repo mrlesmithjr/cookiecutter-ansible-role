@@ -1,1 +1,7 @@
-skip_list: []
+---
+profile: production
+offline: false
+skip_list:
+  - yaml[line-length]
+warn_list:
+  - experimental

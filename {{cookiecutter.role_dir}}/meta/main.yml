@@ -4,20 +4,27 @@ galaxy_info:
   description: {{ cookiecutter.description }}
   company: {{ cookiecutter.company }}
   license: {{ cookiecutter.license }}
-  min_ansible_version: {{ cookiecutter.min_ansible_version }}
+  min_ansible_version: "{{cookiecutter.min_ansible_version}}"
   role_name: {{ cookiecutter.role_slug }}
 
+  # platforms: Fill in the platforms this role supports. Example:
   # platforms:
-  # - name: Fedora
-  #   versions:
-  #   - all
-  #   - 25
-  # - name: SomePlatform
-  #   versions:
-  #   - all
-  #   - 1.0
-  #   - 7
-  #   - 99.99
+  #   - name: Debian
+  #     versions:
+  #       - bookworm
+  #       - bullseye
+  #   - name: Ubuntu
+  #     versions:
+  #       - "24.04"
+  #       - "22.04"
+  #   - name: Rocky
+  #     versions:
+  #       - "9"
+  #       - "8"
+  #   - name: Fedora
+  #     versions:
+  #       - all
+  platforms: []
 
   galaxy_tags: []
 

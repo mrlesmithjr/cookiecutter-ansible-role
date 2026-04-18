@@ -7,16 +7,14 @@
   "company": "Enter company name",
   "email": "me@example.com",
   "website": "http://example.com",
-  "twitter": "example",
   "license": [
     "MIT",
     "BSD-3",
     "Apache Software License 2.0"
   ],
-  "min_ansible_version": "2.8",
-  "year": "2021",
-  "github_username": "{{ cookiecutter.twitter }}",
-  "travis_username": "{{ cookiecutter.twitter }}",
+  "min_ansible_version": "2.16",
+  "year": "2026",
+  "github_username": "mrlesmithjr",
   "default_ci_badges": [
     "Y",
     "N"
